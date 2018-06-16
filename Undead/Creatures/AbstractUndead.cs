@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Undead.Creatures
 {
-    public abstract class Abstract
+    public abstract class AbstractUndead
     {
         public string Name { get; set; }
         public string Rank { get; set; }
         public int Power { get; set; }
         public int Mana { get; set; }
         public int Health { get; set; }
-        public Abstract()
+        public AbstractUndead()
         {
             Name = this.ToString().Split('.').Last();
             Random random = new Random();

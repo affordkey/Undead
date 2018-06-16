@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Undead.Creatures
 {
-    class ShapeShifter:Abstract
+    class ShapeShifter:AbstractUndead
     {
         public override string Scream()
         {

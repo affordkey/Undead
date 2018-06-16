@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creatures\Abstract.cs" />
+    <Compile Include="Creatures\AbstractUndead.cs" />
     <Compile Include="Creatures\Butcher.cs" />
     <Compile Include="Creatures\Daemon.cs" />
     <Compile Include="Creatures\ShapeShifter.cs" />

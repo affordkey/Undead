@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Undead.Creatures
 {
-    public class Skeleton : Abstract
+    public class Skeleton : AbstractUndead
     {
         public override string Scream()
         {
