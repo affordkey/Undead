@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creatures\Abstract.cs" />
+    <Compile Include="Creatures\Zombie.cs" />
+    <Compile Include="Helpers\RandomRank.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
