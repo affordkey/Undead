@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Undead.Creatures;
+using Undead.Helpers;
 
 namespace Undead
 {
@@ -19,10 +20,16 @@ namespace Undead
         static void Main(string[] args)
         {
             List<Abstract> creatures = new List<Abstract>();
-            var zombie = new Zombie();
-            PrintInfo(zombie);
-            var werewolf = new Werewolf();
-            PrintInfo(werewolf);
+            for (int i = 0; i < 8; i++)
+            {
+                foreach (var type in CreaturesList.CreatureList)
+                {
+                    creatures.Add((Abstract)Activator.CreateInstance(type));
+                    creatures.Add((Abstract)Activator.CreateInstance(type));
+                }
+            }
+            foreach (var creature in creatures)
+                PrintInfo(creature);
             Console.ReadKey();
         }
 

@@ -51,6 +51,7 @@
     <Compile Include="Creatures\Vurdalac.cs" />
     <Compile Include="Creatures\Werewolf.cs" />
     <Compile Include="Creatures\Zombie.cs" />
+    <Compile Include="Helpers\CreaturesList.cs" />
     <Compile Include="Helpers\RandomRank.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
