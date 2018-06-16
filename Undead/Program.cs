@@ -21,6 +21,8 @@ namespace Undead
             List<Abstract> creatures = new List<Abstract>();
             var zombie = new Zombie();
             PrintInfo(zombie);
+            var werewolf = new Werewolf();
+            PrintInfo(werewolf);
             Console.ReadKey();
         }
 

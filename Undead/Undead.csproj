@@ -43,6 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creatures\Abstract.cs" />
+    <Compile Include="Creatures\Butcher.cs" />
+    <Compile Include="Creatures\Daemon.cs" />
+    <Compile Include="Creatures\ShapeShifter.cs" />
+    <Compile Include="Creatures\Skeleton.cs" />
+    <Compile Include="Creatures\Vampire.cs" />
+    <Compile Include="Creatures\Vurdalac.cs" />
+    <Compile Include="Creatures\Werewolf.cs" />
     <Compile Include="Creatures\Zombie.cs" />
     <Compile Include="Helpers\RandomRank.cs" />
     <Compile Include="Program.cs" />

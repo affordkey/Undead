@@ -15,10 +15,12 @@ namespace Undead.Creatures
         public int Health { get; set; }
         public Abstract()
         {
+            Name = this.ToString().Split('.').Last();
             Random random = new Random();
             this.Health = 50 + random.Next(50);
             this.Mana = 60+ random.Next(40);
             this.Power = 10+random.Next(90);
+            Rank = Helpers.RandomRank.GetRandomRank();
         }
         public virtual string Scream()
         {

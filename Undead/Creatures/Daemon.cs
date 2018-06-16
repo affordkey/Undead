@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Undead.Creatures
 {
-    public class Zombie: Abstract
+    public class Daemon:Abstract
     {
         public override string Scream()
         {
-            return "Uuuuuuu!!!!";
+            return "Aarrarraaa!";
         }
         public override string Ability()
         {
-            return "I can eat some brains!!!)))";
+            return "I can desire any wish you have, but you should give me your soul!!!";
         }
     }
 }
