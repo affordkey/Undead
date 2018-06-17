@@ -30,5 +30,12 @@ namespace Undead.Creatures
         {
             return "BaseAbility";
         }
+        public string InfoInString()
+        {
+            return String.Format("Name: {0},\nRank: {1},\nHealth: {2},\nMana: {3},\nPower: {4},\nScream: {5},\nAbility: {6};",
+                Name, Rank, Health,
+                Mana, Power, Scream(),
+                Ability());
+        }
     }
 }

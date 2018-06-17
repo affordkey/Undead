@@ -10,13 +10,6 @@ namespace Undead
 {
     class Program
     {
-        public static void PrintInfo(AbstractUndead creature)
-        {
-            Console.WriteLine("Name: {0},\nRank: {1},\nHealth: {2},\nMana: {3},\nPower: {4},\nScream: {5},\nAbility: {6};",
-                creature.Name, creature.Rank, creature.Health,
-                creature.Mana, creature.Power, creature.Scream(),
-                creature.Ability());
-        }
         static void Main(string[] args)
         {
             List<AbstractUndead> creatures = new List<AbstractUndead>();
@@ -29,7 +22,7 @@ namespace Undead
                 }
             }
             foreach (var creature in creatures)
-                PrintInfo(creature);
+                Console.WriteLine(creature.InfoInString());
             Console.ReadKey();
         }
 
